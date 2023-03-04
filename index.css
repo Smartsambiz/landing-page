@@ -1,0 +1,49 @@
+.header-container {
+    background-color: #1f2937 ;
+    height: 400px;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-links {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links {
+    padding: 10px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-page {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-btn {
+    background-color: #3882f6;
+    border-radius:5px;
+    border-color: #3882f6;
+    margin-top: 8px;
+}
