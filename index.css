@@ -1,6 +1,8 @@
+
 .header-container {
     background-color: #1f2937 ;
-    height: 400px;
+    height: 500px;
+  
 }
 
 .header-logo {
@@ -11,6 +13,7 @@
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    
 }
 
 .header-links {
@@ -18,6 +21,7 @@
     font-size: 18px;
     display: flex;
     justify-content: space-evenly;
+   
 }
 
 .links {
@@ -28,12 +32,15 @@
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
+    margin-bottom: 50px;
+   
 }
 
 .hero-main-text {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    
 }
 
 .hero-page {
@@ -46,4 +53,120 @@
     border-radius:5px;
     border-color: #3882f6;
     margin-top: 8px;
+    color: #f9faf8;
+}
+.hero-img > img {
+    width: auto;
+    height: 200px;
+}
+.some-information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center ;
+    padding-top: 10px;
+}
+
+.information-section{
+    align-content: center;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.illustration-list {
+    display: flex;
+    justify-content: center;   
+    margin-top: 20px; 
+}
+
+ 
+.illustration-list> div > img {
+    width:  auto;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+
+.intercontinental {
+    margin-right: 10px;
+}
+.italian {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Nigerian {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.snacks{
+    margin-left: 10px;
+    
+}
+
+
+.quote-section{
+    background-color: #e5e7eb;
+    height: 500px;
+    
+ 
+}
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    text-align:justify;
+    padding: 150px 300px 0px 300px;
+}
+
+#author{
+    text-align: end;
+    padding-right: 300px;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+call to action
+
+.call-to-action-container {
+  
+   height: 500px;
+   color: #e5e7eb;
+}
+
+.call-to-action{
+    background-color: #3882f6;
+    height: 100px;
+    width: 700px;
+  margin: 100px 100px 50px 300px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    color: #e5e7eb;
+}
+
+.text-head{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.action-btn{
+    background-color:#3882f6;
+    color: #e5e7eb;
+    border: 2px #e5e7eb solid;
+    border-radius: 5px;
+    width: 90px;
+}
+
+.footer-container{
+    background-color: #1f2937;
+    color:#f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
