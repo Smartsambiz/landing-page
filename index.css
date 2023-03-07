@@ -135,6 +135,9 @@ call to action
   
    height: 500px;
    color: #e5e7eb;
+   display: flex;
+   flex-shrink: 2;
+    flex-grow: 2;
 }
 
 .call-to-action{
@@ -147,6 +150,7 @@ call to action
     align-items: center;
     border-radius: 8px;
     color: #e5e7eb;
+    
 }
 
 .text-head{
